@@ -40,10 +40,10 @@ main{
     flex-wrap: wrap;
 }
 
-main > div{
+.container{
     width: 350px;
     position: relative;
-    display: inline-block;
+    margin-bottom: 30px;
 }
 
 main > div > img{
@@ -81,10 +81,9 @@ main > div:hover .img2{
 /* Targhetta sconto e sostenbile*/
 
 .card{
-    display: inline;
     position: absolute;
     left:0;
-    bottom: 50px;
+    bottom: 100px;
     color: white;
 }
 
@@ -99,4 +98,21 @@ main > div:hover .img2{
 .discount, .sostenibile{
     padding: 5px;
     border-radius: 20px 20px 20px 0;
+}
+
+/* Nomi e prezzi */
+
+
+
+.brand{
+    font-size: 0.7rem;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration-line: line-through; 
 }
